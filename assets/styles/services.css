@@ -1,0 +1,17 @@
+
+h2{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+
+}

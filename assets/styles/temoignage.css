@@ -1,0 +1,18 @@
+
+
+h2{
+    text-align: center;
+}
+
+.articles{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    
+}

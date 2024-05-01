@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+}
+
+ul.nav{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    padding-right: 40px;
+}
+
+.navbar{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header{
+    background-color: brown;
+}

@@ -1,0 +1,40 @@
+.principal{
+    
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+p{
+    text-align: center;
+}
+h1{
+    align-self: center;
+}
+
+.avantage, .accroche{
+    width: 60%;
+}
+img{
+    padding-right: 150px;
+}

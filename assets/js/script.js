@@ -4,6 +4,8 @@ const title = document.querySelector("h1")
 const accroche = document.querySelector(".accroche")
 const avantage = document.querySelector(".avantage")
 const button = document.querySelector(".button")
+const services = document.querySelector(".services")
+const temoignages = document.querySelector(".temoignages")
 const cards = document.querySelector(".cards")
 const articles = document.querySelector(".articles")
 
@@ -45,11 +47,11 @@ fetch (url)
             article.appendChild(h2)
 
             const h3 = document.createElement("h3")
-            h3.innerText = temoignage.typeIntervention
+            article.innerText = temoignage.typeIntervention
             article.appendChild(h3)
 
             const p = document.createElement("p")
-            p.innerText = temoignage.commentaire
+            article.innerText = temoignage.commentaire
             article.appendChild(p)
 
             articles.appendChild(article)
